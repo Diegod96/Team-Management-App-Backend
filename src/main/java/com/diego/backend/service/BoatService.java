@@ -13,8 +13,8 @@ public class BoatService {
 
     public Boat saveOrUpdateBoat(Boat boat) {
 
-        if (boat.getPriority() == null || boat.getPriority() == "") {
-            boat.setPriority("Low");
+        if (boat.getStatus() == null || boat.getStatus() == "") {
+            boat.setStatus("Low");
         }
 
         return boatRepository.save(boat);

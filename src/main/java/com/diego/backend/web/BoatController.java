@@ -1,4 +1,4 @@
-package com.diego.backend.controller;
+package com.diego.backend.web;
 
 
 import com.diego.backend.model.Boat;

@@ -16,11 +16,11 @@ public class Boat {
     private Long id;
 
     @NotBlank(message = "Boat class cannot be blank")
-    private String boatClass;
+    private String summary;
 
-    private String boatInformation;
+    private String acceptanceCriteria;
 
-    private String priority;
+    private String status;
 
     public Boat() {
 
@@ -34,28 +34,28 @@ public class Boat {
         this.id = id;
     }
 
-    public String getBoatClass() {
-        return boatClass;
+    public String getSummary() {
+        return summary;
     }
 
-    public void setBoatClass(String boatClass) {
-        this.boatClass = boatClass;
+    public void setSummary(String summary) {
+        this.summary = summary;
     }
 
-    public String getBoatInformation() {
-        return boatInformation;
+    public String getAcceptanceCriteria() {
+        return acceptanceCriteria;
     }
 
-    public void setBoatInformation(String acceptanceCriteria) {
-        this.boatInformation = acceptanceCriteria;
+    public void setAcceptanceCriteria(String acceptanceCriteria) {
+        this.acceptanceCriteria = acceptanceCriteria;
     }
 
-    public String getPriority() {
-        return priority;
+    public String getStatus() {
+        return status;
     }
 
-    public void setPriority(String status) {
-        this.priority = status;
+    public void setStatus(String status) {
+        this.status = status;
     }
 }
 
